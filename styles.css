@@ -106,3 +106,34 @@ ol {
 .nutrition {
     margin-top: 15px;
 }
+
+/* Table */
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    /* border-bottom: 1px solid black; */
+    border-bottom-color: hsl(30, 18%, 87%);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+th {
+    text-align: left;
+    font-weight: 400;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+td {
+    text-align: left;
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+    padding-right: 60px;
+}
